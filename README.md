@@ -119,7 +119,6 @@ Verify type checking and production bundle creation:
 ```bash
 npm run build
 ```
-*(Verified: compiles statically with 0 TypeScript or lint errors and 128 kB First Load JS).*
 
 ---
 
@@ -131,27 +130,6 @@ npm run build
 
 ---
 
-## ☁️ Vercel Deployment Guide
-
-Deploying Utsav AI on Vercel takes under 2 minutes:
-
-1. Push this repository to your GitHub account:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: Utsav AI - Celebration & Event Planner MVP"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/utsav-ai.git
-   git push -u origin main
-   ```
-2. Navigate to [Vercel](https://vercel.com) and click **"Add New Project"**.
-3. Import your `utsav-ai` repository.
-4. In the **Environment Variables** section:
-   - Add `GEMINI_API_KEY` with your Google AI Studio API key (optional; if omitted, the app runs cleanly in Demo Mode).
-5. Click **"Deploy"**.
-6. Your live celebration planner will be accessible at `https://utsav-ai.vercel.app`!
-
----
 
 ## 🏆 PromptWars Evaluation Checklist
 
